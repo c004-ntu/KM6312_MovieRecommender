@@ -1,0 +1,8 @@
+model,task_no,vectorizer,ngram,max_iter,C,gamma,tree_param,n_estimator,lrate,batch_size,num_epoch,weight_decay,test_accuracy,wall_time,run_time
+DecisionTree,1,cbow,1,0,,,full_tree,0,0,0,0,0,0.6427889207258835,9.080796718597412,2024-11-21 15:31:19
+DecisionTree,2,cbow,1,0,,,stop_grow,0,0,0,0,0,0.6427889207258835,11.186712741851807,2024-11-21 15:31:32
+DecisionTree,3,cbow,1,0,,,post_prune,0,0,0,0,0,0.6427889207258835,11.903186082839966,2024-11-21 15:31:46
+DecisionTree,4,tfidf,1,0,,,full_tree,0,0,0,0,0,0.6638013371537727,14.91514778137207,2024-11-21 15:32:03
+DecisionTree,5,tfidf,1,0,,,stop_grow,0,0,0,0,0,0.6638013371537727,11.013585805892944,2024-11-21 15:32:15
+DecisionTree,6,tfidf,1,0,,,post_prune,0,0,0,0,0,0.6638013371537727,12.293802499771118,2024-11-21 15:32:29
+DecisionTree,7,cbow,2,0,,,full_tree,0,0,0,0,0,0.6504297994269341,108.16748094558716,2024-11-21 15:34:23

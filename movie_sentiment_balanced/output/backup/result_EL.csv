@@ -1,0 +1,4 @@
+model,task_no,vectorizer,ngram,max_iter,C,gamma,tree_param,n_estimator,lrate,test_accuracy,wall_time,run_time
+Stack,1,tfidf,1,100000,,,full_tree,0,0,0.7366412213740458,209.15093350410461,2024-11-20 17:07:48
+Stack,2,tfidf,2,100000,,,full_tree,0,0,0.7118320610687023,714.2874422073364,2024-11-20 17:20:08
+Stack,3,tfidf,3,100000,,,full_tree,0,0,0.6946564885496184,1443.1535730361938,2024-11-20 17:44:45
