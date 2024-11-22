@@ -1,0 +1,2 @@
+model,task_no,vectorizer,ngram,max_iter,C,gamma,tree_param,n_estimator,lrate,batch_size,num_epoch,weight_decay,test_accuracy,wall_time,run_time
+distilbert,1,wordpiece,0,0,0,,,0,2.00E-05,16,3,0.01,0.919694073,306.824,11/23/2024 6:16
