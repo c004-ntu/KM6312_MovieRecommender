@@ -1,3 +1,4 @@
 model,task_no,vectorizer,ngram,max_iter,C,gamma,tree_param,n_estimator,lrate,batch_size,num_epoch,weight_decay,test_accuracy,wall_time,run_time
 Ensemble,1,tfidf,1,100000,,,full_tree,0,0,0,0,0,0.7144221585482331,237.004492521286,2024-11-22 17:34:55
 Ensemble,2,tfidf,2,100000,,,full_tree,0,0,0,0,0,0.7020057306590258,773.3928501605988,2024-11-22 17:48:38
+Ensemble,3,tfidf,3,100000,,,full_tree,0,0,0,0,0,0.6790830945558739,1923.7328686714172,2024-11-22 18:21:47

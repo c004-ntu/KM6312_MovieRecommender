@@ -20,7 +20,7 @@ movie_data = {
 }
 
 # Paths
-model_path = 'distilbert'
+model_path = 'fine_tuned_model'
 
 positive_image = Image.open("data/image/titanic_positive.jpg")
 negative_image = Image.open("data/image/titanic_negative.jpg")
