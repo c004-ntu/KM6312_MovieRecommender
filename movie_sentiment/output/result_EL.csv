@@ -1,4 +1,7 @@
 model,task_no,vectorizer,ngram,max_iter,C,gamma,tree_param,n_estimator,lrate,batch_size,num_epoch,weight_decay,test_accuracy,wall_time,run_time
-Ensemble,1,tfidf,1,100000,,,full_tree,0,0,0,0,0,0.7144221585482331,237.004492521286,2024-11-22 17:34:55
-Ensemble,2,tfidf,2,100000,,,full_tree,0,0,0,0,0,0.7020057306590258,773.3928501605988,2024-11-22 17:48:38
-Ensemble,3,tfidf,3,100000,,,full_tree,0,0,0,0,0,0.6790830945558739,1923.7328686714172,2024-11-22 18:21:47
+"Ensemble (LR, RBF, DT)",1,tfidf,1,100000,,,full_tree,0,0,0,0,0,0.736389685,130.7433567,11/22/2024 19:52
+"Ensemble  (LR, SVM LR, RBF, DT)",1,tfidf,1,100000,,,full_tree,0,0,0,0,0,0.714422159,237.0044925,11/22/2024 17:34
+"Ensemble  (LR, SVM LR, RBF, DT)",2,tfidf,2,100000,,,full_tree,0,0,0,0,0,0.702005731,773.3928502,11/22/2024 17:48
+"Ensemble  (LR, SVM LR, RBF, DT)",3,tfidf,3,100000,,,full_tree,0,0,0,0,0,0.679083095,1923.732869,11/22/2024 18:21
+"Ensemble (LR, RBF, DT)",2,tfidf,2,100000,,,full_tree,0,0,0,0,0,0.672397326,320.8575351,11/22/2024 19:58
+"Ensemble (LR, RBF, DT)",3,tfidf,3,100000,,,full_tree,0,0,0,0,0,0.664756447,515.3735387,11/22/2024 20:07
