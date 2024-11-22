@@ -20,7 +20,8 @@ movie_data = {
 }
 
 # Paths
-model_path = 'fine_tuned_model'
+# model_path = r"C:\Users\ceffendy\Documents\GitHub\KM6312_MovieReviewSentiment\movie_review_app\fine_tuned_model"
+model_path = r"distilbert"
 
 positive_image = Image.open("data/image/titanic_positive.jpg")
 negative_image = Image.open("data/image/titanic_negative.jpg")
@@ -29,6 +30,7 @@ negative_image = Image.open("data/image/titanic_negative.jpg")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load model and tokenizer
+# model = DistilBertForSequenceClassification.from_pretrained(model_path, from_safetensors=True).to(device)
 model = DistilBertForSequenceClassification.from_pretrained(model_path).to(device)
 tokenizer = DistilBertTokenizerFast.from_pretrained(model_path)
 model.eval()
