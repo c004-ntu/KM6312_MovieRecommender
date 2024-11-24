@@ -1,4 +1,6 @@
 ######## Mock-Up application for inference ########
+# Prerequisite: Please download the saved distillbert model from below link and place it in 'distilbert' folder as large file cannot be saved in github
+# URL: https://entuedu-my.sharepoint.com/:f:/g/personal/c004_e_ntu_edu_sg/EoDbpIa-QDVPtVGoSmcmIVEB5njF8Siu9n5-KwQ2QjtbJQ?e=dImVZ0
 
 import streamlit as st
 import torch
