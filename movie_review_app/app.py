@@ -1,3 +1,5 @@
+######## Mock-Up application for inference ########
+
 import streamlit as st
 import torch
 import torch.nn.functional as F
@@ -120,7 +122,7 @@ with col2:
                 st.markdown(f"**Positive Probability:** {positive_prob:.2f}")
                 st.markdown(f"**Negative Probability:** {negative_prob:.2f}")
 
-            # Display corresponding image
+            # Display image based on prediction
             with image_col:
                 if sentiment == "POSITIVE":
                     st.image(positive_image, caption="Positive Response", width=200)
