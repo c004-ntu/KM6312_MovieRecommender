@@ -1,4 +1,2 @@
 model,task_no,vectorizer,ngram,max_iter,C,gamma,tree_param,n_estimator,lrate,batch_size,num_epoch,weight_decay,test_accuracy,wall_time,run_time
-distilbert,1,wordpiece,0,0,0,,,0,2.00E-05,16,3,0.01,0.919694073,306.824,11/23/2024 6:16
-distilbert,1,wordpiece,0,0,0,,,0,2e-05,16,3,0.01,0.9302103250478011,8884.339995145798,2024-11-28 12:16:01
-distilbert,1,wordpiece,0,0,0,,,0,2e-05,16,3,0.01,0.9187380497131931,14609.610408782959,2024-11-28 19:15:19
+distilbert,1,wordpiece,0,0,0,,,0,2.00E-05,16,3,0.01,0.91873805,14609.61041,11/28/2024 19:15
