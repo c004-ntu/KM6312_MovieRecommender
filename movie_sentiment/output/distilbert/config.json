@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "./output/distilbert",
+  "_name_or_path": "distilbert-base-uncased-finetuned-sst-2-english",
   "activation": "gelu",
   "architectures": [
     "DistilBertForSequenceClassification"
